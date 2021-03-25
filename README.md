@@ -7,7 +7,7 @@ Neste repositoritorio você vai encontrar diversas dicas que todo webmaster prec
 BR: Como corrigir erro do importador do blogger
 
 Um problema muito comum ao importar um xml do blogger para Wordpress é o Warning para argumento invalido:
-![alt text](Fix Blogger Importer Errors/ignore-imagens-for-readme/wordpress-tips-blogger-importer-1.png)
+![alt text](Fix_Blogger_Importer_Errors/ignore-imagens-for-readme/wordpress-tips-blogger-importer-1.png)
 
 Basta realizar a substituição do arquivo parser.php na pasta wp-includes/SimplePie e voilá! (voa-la)
 
