@@ -13,4 +13,4 @@ Basta realizar a substituição do arquivo parser.php na pasta wp-includes/Simpl
 
 ..
 
-Em breve mais dicas.
+Em breve mais dicas, aguade ;)
