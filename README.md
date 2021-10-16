@@ -13,4 +13,9 @@ Basta realizar a substituição do arquivo parser.php na pasta wp-includes/Simpl
 
 ..
 
+2. Script dumps the wordpress application database
+BR: Script que faz o dump da base de dados de aplicações wordpress
+
+Script que faz o dump da base de dados de aplicações wordpress, ele procura pelas credenciais no arquivo wp-config.php.
+
 Em breve mais dicas, aguade ;)
