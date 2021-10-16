@@ -17,7 +17,7 @@ function extract_from_wpconfig() {
 # get credentails from wp-config.php
 NAME=$(extract_from_wpconfig "DB_NAME")
 PASS=$(extract_from_wpconfig "DB_PASSWORD")
-DEST=../backups
+DEST=backup
 
 echo "start mysql db backup of $NAME"
 echo "dest: $FILE"
@@ -32,4 +32,4 @@ if [[ ! -d $DEST ]]; then
 
 fi
 
-mysqldump --complete-insert --routines --triggers --single-transaction -u"${NAME}" -p"${PASS}" ${NAME} | gzip > backups/${NAME}.sql.gz && echo -e "\n\n\n!!! Backup Realizado com sucesso !!! \n\n\n"
+mysqldump --complete-insert --routines --triggers --single-transaction -u"${NAME}" -p"${PASS}" ${NAME} | gzip > backup/${NAME}.sql.gz && echo -e "\n\n\n!!! Backup Realizado com sucesso !!! \n\n\n"
